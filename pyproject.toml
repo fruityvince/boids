@@ -17,6 +17,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "pygame>=2.6.1",
+]
 
 [project.urls]
 Homepage = "https://vincent.touache.github.io/boids/"
@@ -28,9 +31,7 @@ dev = [
     "pytest>=9.0.2",
     "pre-commit>=4.5.1",
     "tox-uv>=1.33.4",
-    
     "mypy>=1.19.1",
-    
     "ruff>=0.15.7",
 ]
 
@@ -53,10 +54,11 @@ show_error_codes = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
 
 [tool.ruff]
 target-version = "py310"
-line-length = 120
+line-length = 90
 fix = true
 
 [tool.ruff.lint]
