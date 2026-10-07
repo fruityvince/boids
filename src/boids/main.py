@@ -29,8 +29,8 @@ class Boid:
 
 def make_random_boid() -> Boid:
     x = random.uniform(0, SCREEN_WIDTH)  # noqa: S311
-    y = random.uniform(0, SCREEN_HEIGHT)
-    angle = random.uniform(0, 2 * math.pi)
+    y = random.uniform(0, SCREEN_HEIGHT)  # noqa: S311
+    angle = random.uniform(0, 2 * math.pi)  # noqa: S311
     vx = math.cos(angle) * BOID_SPEED
     vy = math.sin(angle) * BOID_SPEED
     return Boid(x, y, vx, vy)

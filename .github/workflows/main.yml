@@ -48,5 +48,3 @@ jobs:
 
       - name: Check typing
         run: uv run mypy
-
-
