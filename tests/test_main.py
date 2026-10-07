@@ -46,4 +46,3 @@ def test_cohesion_pulls_toward_neighbor_center():
     steer_x, steer_y = cohesion(boid, neighbors)
     assert steer_x == 5.0
     assert steer_y == 5.0
-
