@@ -71,8 +71,8 @@ wheels = [
 ]
 
 [[package]]
-name = "boids"
-version = "0.0.1"
+name = "boids-vtouache"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pygame" },
