@@ -1,6 +1,6 @@
 [project]
 name = "boids-vtouache"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python project that implements a boid simulation"
 authors = [{ name = "Vincent Touache", email = "vincent.touache@gmail.com" }]
 readme = "README.md"

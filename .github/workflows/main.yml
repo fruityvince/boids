@@ -3,7 +3,7 @@ name: MainLegacy
 on:
   push:
     branches:
-      - master
+      - deprecated
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
